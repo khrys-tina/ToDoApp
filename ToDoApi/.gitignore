@@ -1,0 +1,50 @@
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Entity Framework migrations
+Migrations/
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+
+# Secrets / sensitive config
+appsettings.Development.json
+*.pfx
+*.pem
+*.key
+
+# NuGet packages
+*.nupkg
+# Папка з локальними NuGet пакетами
+packages/
+
+# Rider and ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore compiled DLLs
+*.dll
+*.exe
+*.pdb
